@@ -34,8 +34,8 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.1 }}
-            > Driving Innovation in Online Education for a
-              <HighlightText text={"Brighter Future"} />
+            > Thúc đẩy đổi mới trong giáo dục trực tuyến cho một
+              <HighlightText text={"Tương lai sáng lạng"} />
             </motion.p>
 
             <motion.p
@@ -44,10 +44,7 @@ const About = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.1 }}
               className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-              Studyhub is at the forefront of driving innovation in online
-              education. We're passionate about creating a brighter future by
-              offering cutting-edge courses, leveraging emerging technologies,
-              and nurturing a vibrant learning community.
+              Chúng tôi là một nền tảng học tập trực tuyến tận tâm cung cấp các khóa học chất lượng cao, được thiết kế để đáp ứng nhu cầu và sở thích đa dạng của người học. Sứ mệnh của chúng tôi là trao quyền cho mọi người từ mọi tầng lớp xã hội để phát huy hết tiềm năng của họ thông qua giáo dục.
             </motion.p>
           </motion.header>
 
@@ -78,23 +75,16 @@ const About = () => {
               viewport={{ once: false, amount: 0.1 }}
               className="my-24 flex lg:w-[50%] flex-col gap-10">
               <h1 className="bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
-                Our Founding Story
+                Câu chuyện thành lập của chúng tôi
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+                Nền tảng học tập trực tuyến của chúng tôi ra đời từ tầm nhìn chung và niềm đam mê chuyển đổi giáo dục. Tất cả bắt đầu từ một nhóm nhà giáo dục, chuyên gia công nghệ và những người học tập suốt đời, những người nhận ra nhu cầu về các cơ hội học tập dễ tiếp cận, linh hoạt và chất lượng cao trong một thế giới kỹ thuật số đang phát triển nhanh chóng.
               </p>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                As experienced educators ourselves, we witnessed firsthand the
-                limitations and challenges of traditional education systems. We
-                believed that education should not be confined to the walls of a
-                classroom or restricted by geographical boundaries. We
-                envisioned a platform that could bridge these gaps and empower
-                individuals from all walks of life to unlock their full
-                potential.
+                Là những nhà giáo dục giàu kinh nghiệm, chúng tôi đã tận mắt chứng kiến những hạn chế và thách thức của hệ thống giáo dục truyền thống. Chúng tôi tin rằng giáo dục không nên bị giới hạn trong
+bức tường lớp học hay bị giới hạn bởi ranh giới địa lý. Chúng tôi hình dung ra một nền tảng có thể thu hẹp những khoảng cách này và trao quyền cho
+mọi cá nhân từ mọi tầng lớp xã hội để phát huy hết
+tiềm năng của họ.
               </p>
             </motion.div>
 
@@ -115,24 +105,19 @@ const About = () => {
           <div className="flex flex-col items-center lg:gap-10 lg:flex-row justify-between">
             <div className="my-24 flex lg:w-[40%] flex-col gap-10">
               <h1 className="bg-gradient-to-b from-[#FF512F] to-[#F09819] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
-                Our Vision
+                Tầm nhìn của chúng tôi
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                With this vision in mind, we set out on a journey to create an
-                e-learning platform that would revolutionize the way people
-                learn. Our team of dedicated experts worked tirelessly to
-                develop a robust and intuitive platform that combines
-                cutting-edge technology with engaging content, fostering a
-                dynamic and interactive learning experience.
+                Tầm nhìn của chúng tôi là tạo ra một nền tảng học tập trực tuyến toàn diện, nơi mọi người có thể tiếp cận các khóa học chất lượng cao, được thiết kế để đáp ứng nhu cầu và sở thích đa dạng. Chúng tôi muốn phá vỡ rào cản truyền thống trong giáo dục và cung cấp cho người học những công cụ và nguồn lực cần thiết để thành công trong thế giới kỹ thuật số.
               </p>
             </div>
 
             <div className="my-24 flex lg:w-[40%] flex-col gap-10">
               <h1 className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text text-4xl font-semibold lg:w-[70%] ">
-                Our Mission
+                Sứ mệnh của chúng tôi
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.
+                Sứ mệnh của chúng tôi là cung cấp một nền tảng học tập trực tuyến dễ sử dụng, nơi người học có thể khám phá, phát triển và phát huy hết tiềm năng của mình. Chúng tôi cam kết cung cấp các khóa học chất lượng cao, được thiết kế bởi các chuyên gia trong ngành và được hỗ trợ bởi công nghệ tiên tiến để mang lại trải nghiệm học tập tốt nhất có thể.
               </p>
             </div>
           </div>
@@ -149,7 +134,7 @@ const About = () => {
       {/* Reviws from Other Learner */}
       <div className=" my-20 px-5 text-white ">
         <h1 className="text-center text-4xl font-semibold mt-8">
-          Reviews from other learners
+          Đánh giá từ những người học khác
         </h1>
         <ReviewSlider />
       </div>

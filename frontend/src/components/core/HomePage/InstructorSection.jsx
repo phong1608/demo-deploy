@@ -30,18 +30,18 @@ const InstructorSection = () => {
 
         <div className='lg:w-[50%] flex flex-col'>
           <div className='text-3xl lg:text-4xl font-semobold w-[50%] mb-2'>
-            Become an
-            <HighlightText text={"Instructor"} />
+            Trở thành
+            <HighlightText text={"Giảng viên"} />
           </div>
 
           <p className='font-medium text-[16px] w-[80%] text-richblack-300 mb-12'>
-            Instructors from around the world teach millions of students on Studyhub. We provide the tools and skills to teach what you love.
+            Chia sẻ kiến thức của bạn với thế giới và kiếm tiền từ nó. Trở thành một giảng viên trên nền tảng của chúng tôi và giúp đỡ những người khác trong hành trình học tập của họ.
           </p>
 
           <div className='w-fit'>
             <CTAButton active={true} linkto={"/signup"}>
               <div className='flex flex-row gap-2 items-center'>
-                Start Learning Today
+                Bắt đầu học hôm nay
                 <FaArrowRight />
               </div>
             </CTAButton>

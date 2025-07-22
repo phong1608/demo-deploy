@@ -16,24 +16,24 @@ import { fadeIn } from '../../common/motionFrameVarients';
 const timeline = [
     {
         Logo: Logo1,
-        heading: "Leadership",
-        Description: "Fully committed to the success company",
+        heading: "Lãnh đạo",
+        Description: "Chúng tôi dẫn đầu trong đổi mới giáo dục trực tuyến",
     },
     {
         Logo: Logo2,
-        heading: "Responsibility",
-        Description: "Students will always be our top priority",
+        heading: "Trách nhiệm",
+        Description: "Học sinh là ưu tiên hàng đầu của chúng tôi",
     },
     {
         Logo: Logo3,
-        heading: "Flexibility",
-        Description: "The ability to switch is an important skills",
+        heading: "Linh hoạt",
+        Description: "Học tập theo tốc độ của bạn",
     },
 
     {
         Logo: Logo4,
-        heading: "Solve the problem",
-        Description: "Code your way to a solution",
+        heading: "Giải quyết vấn đề",
+        Description: "Tìm kiếm giải pháp cho những thách thức trong học tập",
     },
 ];
 
@@ -84,12 +84,12 @@ const TimelineSection = () => {
                             left-[50%] translate-x-[-50%] translate-y-[-70%] rounded-3xl'>
                         <div className='flex flex-row gap-5 items-center border-r border-caribbeangreen-300 px-7'>
                             <p className='text-2xl lg:text-3xl font-bold'>10</p>
-                            <p className='text-caribbeangreen-300 text-xs lg:text-sm'>Years of Experience</p>
+                            <p className='text-caribbeangreen-300 text-xs lg:text-sm'>Năm kinh nghiệm</p>
                         </div>
 
                         <div className='flex gap-5 items-center px-7'>
                             <p className='text-2xl lg:text-3xl font-bold'>250</p>
-                            <p className='text-caribbeangreen-300 text-xs lg:text-sm'>TYpe of Courses</p>
+                            <p className='text-caribbeangreen-300 text-xs lg:text-sm'>Loại khóa học </p>
                         </div>
 
                     </div>

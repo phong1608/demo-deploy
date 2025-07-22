@@ -3,7 +3,7 @@ import { ACCOUNT_TYPE } from './../src/utils/constants';
 export const sidebarLinks = [
   {
     id: 1,
-    name: "My Profile",
+    name: "Trang cá nhân",
     path: "/dashboard/my-profile",
     icon: "VscAccount",
   },
@@ -16,28 +16,28 @@ export const sidebarLinks = [
   },
   {
     id: 3,
-    name: "My Courses",
+    name: "Khóa học của tôi",
     path: "/dashboard/my-courses",
     type: ACCOUNT_TYPE.INSTRUCTOR,
     icon: "VscVm",
   },
   {
     id: 4,
-    name: "Add Course",
+    name: "Thêm khóa học",
     path: "/dashboard/add-course",
     type: ACCOUNT_TYPE.INSTRUCTOR,
     icon: "VscAdd",
   },
   {
     id: 5,
-    name: "Enrolled Courses",
+    name: "Khóa học đã đăng ký",
     path: "/dashboard/enrolled-courses",
     type: ACCOUNT_TYPE.STUDENT,
     icon: "VscMortarBoard",
   },
   {
     id: 6,
-    name: "Purchase History",
+    name: "Lịch sử mua hàng",
     path: "/dashboard/purchase-history",
     type: ACCOUNT_TYPE.STUDENT,
     icon: "VscHistory",

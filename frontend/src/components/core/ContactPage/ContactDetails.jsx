@@ -6,21 +6,21 @@ import * as Icon2 from "react-icons/io5"
 const contactDetails = [
   {
     icon: "HiChatBubbleLeftRight",
-    heading: "Chat on us",
-    description: "Our friendly team is here to help.",
+    heading: "Nhắn tin cho chúng tôi",
+    description: "Bộ phận hỗ trợ khách hàng của chúng tôi sẵn sàng giúp đỡ bạn.",
     details: "info@studyhub.com",
   },
   {
     icon: "BiWorld",
-    heading: "Visit us",
-    description: "Come and say hello at our office HQ.",
+    heading: "Văn phòng",
+    description: "Địa chỉ văn phòng của chúng tôi",
     details:
-      "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
+      "Hà Nội, Việt Nam - 123 Đường ABC, Quận XYZ, TP Hà Nội",
   },
   {
     icon: "IoCall",
-    heading: "Call us",
-    description: "Mon - Fri From 8am to 5pm",
+    heading: "Liên hệ qua điện thoại",
+    description: "Thứ hứ Hai đến Thứ Sáu, 9:00 sáng - 6:00 chiều",
     details: "+123 456 7869",
   },
 ]

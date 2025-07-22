@@ -130,7 +130,7 @@ const Navbar = () => {
                                                             ))}
                                                         </>
                                                     ) : (
-                                                        <p className="text-center">No Courses Found</p>
+                                                        <p className="text-center">Không tìm thấy khóa học</p>
                                                     )}
                                             </div>
                                         </div>
@@ -169,7 +169,7 @@ const Navbar = () => {
                                 <button className={` px-[12px] py-[8px] text-richblack-100 rounded-md 
                                  ${matchRoute('/login') ? 'border-[2.5px] border-yellow-50' : 'border border-richblack-700 bg-richblack-800'} `}
                                 >
-                                    Log in
+                                    Đăng nhập
                                 </button>
                             </Link>
                         )
@@ -181,7 +181,7 @@ const Navbar = () => {
                                 <button className={` px-[12px] py-[8px] text-richblack-100 rounded-md 
                                  ${matchRoute('/signup') ? 'border-[2.5px] border-yellow-50' : 'border border-richblack-700 bg-richblack-800'} `}
                                 >
-                                    Sign Up
+                                    Đăng ký
                                 </button>
                             </Link>
                         )

@@ -4,89 +4,89 @@ export const HomePageExplore = [
         courses : [
             {
                 heading : "Learn HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                description : "Khóa học này bao gồm các khái niệm cơ bản về HTML, bao gồm cách tạo và cấu trúc trang web, thêm văn bản, liên kết, hình ảnh và nhiều hơn nữa.",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
                 heading : "Learn CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
+                description : "Khóa học này khám phá các chủ đề nâng cao trong HTML5 và CSS3, bao gồm hoạt ảnh, chuyển tiếp và kỹ thuật bố cục",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
                 heading : "Responsive Web design",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
+                description : "Khóa học này dạy các kỹ thuật thiết kế web đáp ứng, cho phép các trang web thích ứng với các thiết bị",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
         ]
     },
     {
         tag: 'New to coding',
-        courses : [
+         courses : [
             {
-                heading : "HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                heading : "Learn HTML",
+                description : "Khóa học này bao gồm các khái niệm cơ bản về HTML, bao gồm cách tạo và cấu trúc trang web, thêm văn bản, liên kết, hình ảnh và nhiều hơn nữa.",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
+                heading : "Learn CSS",
+                description : "Khóa học này khám phá các chủ đề nâng cao trong HTML5 và CSS3, bao gồm hoạt ảnh, chuyển tiếp và kỹ thuật bố cục",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Responsive ",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
+                heading : "Responsive Web design",
+                description : "Khóa học này dạy các kỹ thuật thiết kế web đáp ứng, cho phép các trang web thích ứng với các thiết bị",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
         ]
     },
     {
         tag: 'Most popular',
-        courses : [
+         courses : [
             {
-                heading : "Java",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                heading : "Learn HTML",
+                description : "Khóa học này bao gồm các khái niệm cơ bản về HTML, bao gồm cách tạo và cấu trúc trang web, thêm văn bản, liên kết, hình ảnh và nhiều hơn nữa.",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Python",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
+                heading : "Learn CSS",
+                description : "Khóa học này khám phá các chủ đề nâng cao trong HTML5 và CSS3, bao gồm hoạt ảnh, chuyển tiếp và kỹ thuật bố cục",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "SCSS",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
+                heading : "Responsive Web design",
+                description : "Khóa học này dạy các kỹ thuật thiết kế web đáp ứng, cho phép các trang web thích ứng với các thiết bị",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
         ]
     },
     {
         tag: 'Skills paths',
-        courses : [
+         courses : [
             {
-                heading : "Flask",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                heading : "Learn HTML",
+                description : "Khóa học này bao gồm các khái niệm cơ bản về HTML, bao gồm cách tạo và cấu trúc trang web, thêm văn bản, liên kết, hình ảnh và nhiều hơn nữa.",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Django",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
+                heading : "Learn CSS",
+                description : "Khóa học này khám phá các chủ đề nâng cao trong HTML5 và CSS3, bao gồm hoạt ảnh, chuyển tiếp và kỹ thuật bố cục",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Fast API",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
+                heading : "Responsive Web design",
+                description : "Khóa học này dạy các kỹ thuật thiết kế web đáp ứng, cho phép các trang web thích ứng với các thiết bị",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
         ]
@@ -95,21 +95,21 @@ export const HomePageExplore = [
         tag: 'Career paths',
         courses : [
             {
-                heading : "Next.js",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                heading : "Learn HTML",
+                description : "Khóa học này bao gồm các khái niệm cơ bản về HTML, bao gồm cách tạo và cấu trúc trang web, thêm văn bản, liên kết, hình ảnh và nhiều hơn nữa.",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Nuxt.js",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
+                heading : "Learn CSS",
+                description : "Khóa học này khám phá các chủ đề nâng cao trong HTML5 và CSS3, bao gồm hoạt ảnh, chuyển tiếp và kỹ thuật bố cục",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
             {
-                heading : "Sanity",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
+                heading : "Responsive Web design",
+                description : "Khóa học này dạy các kỹ thuật thiết kế web đáp ứng, cho phép các trang web thích ứng với các thiết bị",
+                level : 'Mới bắt đầu',
                 lessionNumber : 6
             },
         ]

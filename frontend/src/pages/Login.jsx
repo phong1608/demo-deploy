@@ -4,9 +4,9 @@ import Template from "../components/core/Auth/Template"
 function Login() {
   return (
     <Template
-      title="Welcome Back"
-      description1="Build skills for today, tomorrow, and beyond."
-      description2="Education to future-proof your career."
+      title="Chào mừng trở lại"
+      description1="Đăng nhập để tiếp tục hành trình học tập của bạn."
+      description2="Nếu bạn chưa có tài khoản, hãy đăng ký ngay!"
       image={loginImg}
       formType="login"
     />

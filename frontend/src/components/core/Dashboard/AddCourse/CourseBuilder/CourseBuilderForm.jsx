@@ -86,13 +86,13 @@ export default function CourseBuilderForm() {
 
   return (
     <div className="space-y-8 rounded-2xl border-[1px] border-richblack-700 bg-richblack-800 p-6">
-      <p className="text-2xl font-semibold text-richblack-5">Course Builder</p>
+      <p className="text-2xl font-semibold text-richblack-5">Tạo khóa học</p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         {/* Section Name */}
         <div className="flex flex-col space-y-2">
           <label className="text-sm text-richblack-5" htmlFor="sectionName">
-            Section Name <sup className="text-pink-200">*</sup>
+            Tên chương <sup className="text-pink-200">*</sup>
           </label>
           <input
             id="sectionName"
@@ -103,7 +103,7 @@ export default function CourseBuilderForm() {
           />
           {errors.sectionName && (
             <span className="ml-2 text-xs tracking-wide text-pink-200">
-              Section name is required
+              Tên chương là bắt buộc
             </span>
           )}
         </div>
@@ -125,7 +125,8 @@ export default function CourseBuilderForm() {
               onClick={cancelEdit}
               className="text-sm text-richblack-300 underline"
             >
-              Cancel Edit
+              Hủy chỉnh sửa
+              {/* Cancel Edit */}
             </button>
           )}
         </div>
@@ -142,7 +143,7 @@ export default function CourseBuilderForm() {
           onClick={goBack}
           className={`rounded-md bg-richblack-300 py-[8px] px-[20px] font-semibold text-richblack-900`}
         >
-          Back
+          Quay lại
         </button>
 
         {/* Next button */}

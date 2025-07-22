@@ -14,7 +14,7 @@ export default function AddCourse() {
 
       <div className="flex flex-1 flex-col">
         <h1 className="mb-14 text-3xl font-medium text-richblack-5 font-boogaloo text-center lg:text-left">
-          Add Course
+         Thêm khóa học
         </h1>
 
         <div className="flex-1">
@@ -27,14 +27,15 @@ export default function AddCourse() {
         <p className="mb-8 text-lg text-richblack-5">⚡ Course Upload Tips</p>
 
         <ul className="ml-5 list-item list-disc space-y-4 text-xs text-richblack-5">
-          <li>Set the Course Price option or make it free.</li>
-          <li>Standard size for the course thumbnail is 1024x576.</li>
-          <li>Video section controls the course overview video.</li>
-          <li>Course Builder is where you create & organize a course.</li>
-          <li>Add Topics in the Course Builder section to create lessons,quizzes, and assignments.</li>
-          <li>Information from the Additional Data section shows up on thecourse single page.</li>
-          <li>Make Announcements to notify any important</li>
-          <li>Notes to all enrolled students at once.</li>
+          <li>Thêm giá khóa học hoặc làm khóa học miễn phí</li>
+          <li>Ảnh thu nhỏ được khuyến khích có kích thước khoảng 1024x1024</li>
+          <li>Phần Video điều khiển video tổng quan của khóa học.</li>
+          <li>Course Builder là nơi bạn tạo và tổ chức khóa học.</li>
+          <li>Thêm Chủ đề trong phần Course Builder để tạo bài học, bài kiểm tra và bài tập.</li>
+          <li>Thông tin từ phần Dữ liệu bổ sung sẽ hiển thị trên trang chi tiết khóa học.</li>
+          <li>Tạo Thông báo để thông báo các nội dung quan trọng.</li>
+          <li>Gửi Ghi chú đến tất cả học viên đã đăng ký cùng lúc.</li>
+
         </ul>
       </div>
     </div>

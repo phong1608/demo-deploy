@@ -108,7 +108,7 @@ const Home = () => {
                                         transition-all duration-200 hover:scale-95 w-fit'>
                             <div className='flex flex-row items-center gap-2 rounded-full px-10 py-[5px]
                               transition-all duration-200 group-hover:bg-richblack-900'>
-                                <p>Become an Instructor</p>
+                                <p>Trở thành giảng viên</p>
                                 <FaArrowRight />
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Home = () => {
                         viewport={{ once: false, amount: 0.1 }}
                         className='text-center text-3xl lg:text-4xl font-semibold mt-7  '
                     >
-                        Empower Your Future with
+                        Nâng cao kỹ năng của bạn với
                         <HighlightText text={"Coding Skills"} />
                     </motion.div>
 
@@ -133,7 +133,7 @@ const Home = () => {
                         viewport={{ once: false, amount: 0.1 }}
                         className=' mt-4 w-[90%] text-center text-base lg:text-lg font-bold text-richblack-300'
                     >
-                        With our online coding courses, you can learn at your own pace, from anywhere in the world, and get access to a wealth of resources, including hands-on projects, quizzes, and personalized feedback from instructors.
+                        Chúng tôi cung cấp các khóa học chất lượng cao, được thiết kế để đáp ứng nhu cầu và sở thích đa dạng của người học. Sứ mệnh của chúng tôi là trao quyền cho mọi người từ mọi tầng lớp xã hội để phát huy hết tiềm năng của họ thông qua giáo dục.
                     </motion.div>
 
 
@@ -148,24 +148,24 @@ const Home = () => {
                             position={"lg:flex-row"}
                             heading={
                                 <div className='text-3xl lg:text-4xl font-semibold'>
-                                    Unlock Your
+                                    Mở khóa kỹ năng của bạn 
                                     <HighlightText text={"coding potential "} />
-                                    with our online courses
+                                    với những khóa học của chúng tôi
                                 </div>
                             }
                             subheading={
-                                "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+                                "Chúng tôi cung cấp các khóa học chất lượng cao, được thiết kế để đáp ứng nhu cầu và sở thích đa dạng của người học. Sứ mệnh của chúng tôi là trao quyền cho mọi người từ mọi tầng lớp xã hội để phát huy hết tiềm năng của họ thông qua giáo dục."
                             }
                             ctabtn1={
                                 {
-                                    btnText: "try it yourself",
+                                    btnText: "Trải nghiệm ngay",
                                     linkto: "/signup",
                                     active: true,
                                 }
                             }
                             ctabtn2={
                                 {
-                                    btnText: "learn more",
+                                    btnText: "Tìm hiểu thêm",
                                     linkto: "/login",
                                     active: false,
                                 }
@@ -184,20 +184,20 @@ const Home = () => {
                             position={"lg:flex-row-reverse"}
                             heading={
                                 <div className="w-[100%] text-3xl lg:text-4xl font-semibold lg:w-[50%]">
-                                    Start
+                                    Bắt đầu
                                     <HighlightText text={"coding in seconds"} />
                                 </div>
                             }
                             subheading={
-                                "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+                                "Thử ngay với các khóa học của chúng tôi và bắt đầu hành trình học tập của bạn ngay hôm nay. "
                             }
                             ctabtn1={{
-                                btnText: "Continue Lesson",
+                                btnText: "Tiếp tục bài học",
                                 link: "/signup",
                                 active: true,
                             }}
                             ctabtn2={{
-                                btnText: "Learn More",
+                                btnText: "Xem thêm",
                                 link: "/signup",
                                 active: false,
                             }}
@@ -210,13 +210,13 @@ const Home = () => {
                     {/* course slider */}
                     <div className='mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
                         <h2 className='text-white mb-6 text-2xl '>
-                            Popular Picks for You 🏆
+                            Khóa học nổi bật 🏆
                         </h2>
                         <Course_Slider Courses={CatalogPageData?.selectedCategory?.courses} />
                     </div>
                     <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
                         <h2 className='text-white mb-6 text-2xl '>
-                            Top Enrollments Today 🔥
+                            Khóa học hot 🔥
                         </h2>
                         <Course_Slider Courses={CatalogPageData?.mostSellingCourses} />
                     </div>
@@ -233,13 +233,13 @@ const Home = () => {
                             <div className='flex flex-row gap-7 text-white '>
                                 <CTAButton active={true} linkto={"/signup"}>
                                     <div className='flex items-center gap-3' >
-                                        Explore Full Catalog
+                                        Khám khóa tất cả danh mục
                                         <FaArrowRight />
                                     </div>
                                 </CTAButton>
                                 <CTAButton active={false} linkto={"/signup"}>
                                     <div>
-                                        Learn more
+                                        Xem thêm
                                     </div>
                                 </CTAButton>
                             </div>
@@ -249,17 +249,17 @@ const Home = () => {
                     <div className='mx-auto w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-7'>
                         <div className='flex flex-col lg:flex-row gap-5 mb-10 mt-[95px]'>
                             <div className='text-3xl lg:text-4xl font-semibold w-full lg:w-[45%]'>
-                                Get the Skills you need for a
-                                <HighlightText text={"Job that is in demand"} />
+                                Khám phá các khóa học của chúng tôi và tìm kiếm
+                                <HighlightText text={"công việc hot"} />
                             </div>
 
                             <div className='flex flex-col gap-10 w-full lg:w-[40%] items-start'>
                                 <div className='text-[16px]'>
-                                    The modern StudyHub is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
+                                    Chúng tôi cung cấp các khóa học chất lượng cao, được thiết kế để đáp ứng nhu cầu và sở thích đa dạng của người học. Sứ mệnh của chúng tôi là trao quyền cho mọi người từ mọi tầng lớp xã hội để phát huy hết tiềm năng của họ thông qua giáo dục.
                                 </div>
                                 <CTAButton active={true} linkto={"/signup"}>
                                     <div>
-                                        Learn more
+                                        Xem thêm
                                     </div>
                                 </CTAButton>
                             </div>
@@ -282,7 +282,7 @@ const Home = () => {
 
                     {/* Reviws from Other Learner */}
                     <h1 className="text-center text-3xl lg:text-4xl font-semibold mt-8 flex justify-center items-center gap-x-3">
-                        Reviews from other learners <MdOutlineRateReview className='text-yellow-25' />
+                        Đánh giá của học viên <MdOutlineRateReview className='text-yellow-25' />
                     </h1>
                     <ReviewSlider />
                 </div>

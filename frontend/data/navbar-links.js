@@ -7,11 +7,11 @@ export const NavbarLinks = [
     title: "Catalog",   
   },
   {
-    title: "About Us",
+    title: "Về chúng tôi",
     path: "/about",
   },
   {
-    title: "Contact Us",
+    title: "Liên hệ",
     path: "/contact",
   },
 ];

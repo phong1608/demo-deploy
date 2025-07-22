@@ -4,9 +4,9 @@ import Template from "../components/core/Auth/Template"
 function Signup() {
   return (
     <Template
-      title="Join the millions learning to code with StudyHub for free"
-      description1="Build skills for today, tomorrow, and beyond."
-      description2="Education to future-proof your career."
+      title="Đăng ký tài khoản"
+      description1="Xây dựng kỹ năng của bạn với các khóa học trực tuyến chất lượng cao."
+      description2="Đăng ký ngay để bắt đầu hành trình học tập của bạn!"
       image={signupImg}
       formType="signup"
     />

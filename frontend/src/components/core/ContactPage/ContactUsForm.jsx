@@ -64,14 +64,14 @@ const ContactUsForm = () => {
           />
           {errors.firstname && (
             <span className="-mt-1 text-[12px] text-yellow-100">
-              Please enter your name.
+              Tên 
             </span>
           )}
         </div>
         
         <div className="flex flex-col gap-2 lg:w-[48%]">
           <label htmlFor="lastname" className="lable-style">
-            Last Name
+            Họ
           </label>
           <input
             type="text"
@@ -105,7 +105,7 @@ const ContactUsForm = () => {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="phonenumber" className="lable-style">
-          Phone Number
+          Số điện thoại
         </label>
 
         <div className="flex gap-5">
@@ -155,14 +155,14 @@ const ContactUsForm = () => {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="message" className="lable-style">
-          Message
+          Tin nhắn
         </label>
         <textarea
           name="message"
           id="message"
           cols="30"
           rows="7"
-          placeholder="Enter your message here"
+          placeholder="Nhập tin nhắn của bạn"
           className="form-style"
           {...register("message", { required: true })}
         />
@@ -181,7 +181,7 @@ const ContactUsForm = () => {
           "transition-all duration-200 hover:scale-95 hover:shadow-none"
           }  disabled:bg-richblack-500 sm:text-[16px] `}
       >
-        Send Message
+        Gửi
       </button>
     </form>
   )

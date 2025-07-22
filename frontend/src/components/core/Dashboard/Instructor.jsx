@@ -63,9 +63,9 @@ export default function Instructor() {
         {/* bottom row */}
         <div className="flex flex-col gap-y-6  mt-5">
           <div className="flex justify-between">
-            <p className="text-lg font-bold text-richblack-5 pl-5">Your Courses</p>
+            <p className="text-lg font-bold text-richblack-5 pl-5">Khóa học của bạn</p>
             <Link to="/dashboard/my-courses">
-              <p className="text-xs font-semibold text-yellow-50 hover:underline pr-5">View All</p>
+              <p className="text-xs font-semibold text-yellow-50 hover:underline pr-5">Hiển thị tất cả</p>
             </Link>
           </div>
 
@@ -84,10 +84,10 @@ export default function Instructor() {
     <div>
       <div className="space-y-2">
         <h1 className="text-2xl font-bold text-richblack-5 text-center sm:text-left">
-          Hii {user?.firstName} 👋
+          Xin chào {user?.firstName} 👋
         </h1>
         <p className="font-medium text-richblack-200 text-center sm:text-left">
-          Let's start something new
+          Hãy tạo khóa học của riêng bạn và chia sẻ kiến thức với thế giới!
         </p>
       </div>
 
@@ -106,9 +106,9 @@ export default function Instructor() {
                 <InstructorChart courses={instructorData} />
               ) : (
                 <div className="flex-1 rounded-md bg-richblack-800 p-6">
-                  <p className="text-lg font-bold text-richblack-5">Visualize</p>
+                  <p className="text-lg font-bold text-richblack-5">Biểu đồ</p>
                   <p className="mt-4 text-xl font-medium text-richblack-50">
-                    Not Enough Data To Visualize
+                    Không đủ dữ liệu để hiển thị biểu đồ
                   </p>
                 </div>
               )}
@@ -116,16 +116,16 @@ export default function Instructor() {
               {/* left column */}
               {/* Total Statistics */}
               <div className="flex min-w-[250px] flex-col rounded-md bg-richblack-800 p-6">
-                <p className="text-lg font-bold text-richblack-5">Statistics</p>
+                <p className="text-lg font-bold text-richblack-5">Thống kê</p>
                 <div className="mt-4 space-y-4">
                   <div>
-                    <p className="text-lg text-richblack-200">Total Courses</p>
+                    <p className="text-lg text-richblack-200">Tổng khóa học</p>
                     <p className="text-3xl font-semibold text-richblack-50">
                       {courses.length}
                     </p>
                   </div>
                   <div>
-                    <p className="text-lg text-richblack-200">Total Students</p>
+                    <p className="text-lg text-richblack-200">Tổng học sinh</p>
                     <p className="text-3xl font-semibold text-richblack-50">
                       {totalStudents}
                     </p>
@@ -143,9 +143,9 @@ export default function Instructor() {
             {/* Render 3 courses */}
             <div className="rounded-md bg-richblack-800 p-6">
               <div className="flex items-center justify-between">
-                <p className="text-lg font-bold text-richblack-5">Your Courses</p>
+                <p className="text-lg font-bold text-richblack-5">Khóa học của bạn</p>
                 <Link to="/dashboard/my-courses">
-                  <p className="text-xs font-semibold text-yellow-50 hover:underline">View All</p>
+                  <p className="text-xs font-semibold text-yellow-50 hover:underline">Hiển thị tất cả</p>
                 </Link>
               </div>
 
@@ -164,7 +164,7 @@ export default function Instructor() {
                       </p>
                       <div className="mt-1 flex items-center space-x-2">
                         <p className="text-xs font-medium text-richblack-300">
-                          {course.studentsEnrolled.length} students
+                          {course.studentsEnrolled.length} học sinh
                         </p>
                         <p className="text-xs font-medium text-richblack-300">
                           |
@@ -182,12 +182,12 @@ export default function Instructor() {
         ) : (
           <div className="mt-20 rounded-md bg-richblack-800 p-6 py-20">
             <p className="text-center text-2xl font-bold text-richblack-5">
-              You have not created any courses yet
+              Bạn chưa tạo khóa học nào
             </p>
 
             <Link to="/dashboard/add-course">
               <p className="mt-1 text-center text-lg font-semibold text-yellow-50">
-                Create a course
+                Tạo 1 khóa học ngay bây giờ
               </p>
             </Link>
           </div>

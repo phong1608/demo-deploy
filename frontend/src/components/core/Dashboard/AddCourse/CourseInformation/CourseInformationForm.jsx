@@ -151,7 +151,7 @@ export default function CourseInformationForm() {
       {/* Course Title */}
       <div className="flex flex-col space-y-2">
         <label className="text-sm text-richblack-5" htmlFor="courseTitle">
-          Course Title <sup className="text-pink-200">*</sup>
+          Tên khóa học <sup className="text-pink-200">*</sup>
         </label>
         <input
           id="courseTitle"
@@ -161,7 +161,7 @@ export default function CourseInformationForm() {
         />
         {errors.courseTitle && (
           <span className="ml-2 text-xs tracking-wide text-pink-200">
-            Course title is required
+            Tên khóa học là bắt buộc
           </span>
         )}
       </div>
@@ -169,7 +169,7 @@ export default function CourseInformationForm() {
       {/* Course Short Description */}
       <div className="flex flex-col space-y-2">
         <label className="text-sm text-richblack-5" htmlFor="courseShortDesc">
-          Course Short Description <sup className="text-pink-200">*</sup>
+         Mô tả ngắn <sup className="text-pink-200">*</sup>
         </label>
         <textarea
           id="courseShortDesc"
@@ -179,7 +179,7 @@ export default function CourseInformationForm() {
         />
         {errors.courseShortDesc && (
           <span className="ml-2 text-xs tracking-wide text-pink-200">
-            Course Description is required
+            Mô tả ngắn là bắt buộc
           </span>
         )}
       </div>
@@ -187,7 +187,7 @@ export default function CourseInformationForm() {
       {/* Course Price */}
       <div className="flex flex-col space-y-2">
         <label className="text-sm text-richblack-5" htmlFor="coursePrice">
-          Course Price <sup className="text-pink-200">*</sup>
+          Giá <sup className="text-pink-200">*</sup>
         </label>
         <div className="relative">
           <input
@@ -207,7 +207,7 @@ export default function CourseInformationForm() {
         </div>
         {errors.coursePrice && (
           <span className="ml-2 text-xs tracking-wide text-pink-200">
-            Course Price is required
+            Giá là bắt buộc và phải là một số hợp lệ
           </span>
         )}
       </div>
@@ -215,7 +215,7 @@ export default function CourseInformationForm() {
       {/* Course Category */}
       <div className="flex flex-col space-y-2 ">
         <label className="text-sm text-richblack-5" htmlFor="courseCategory">
-          Course Category <sup className="text-pink-200">*</sup>
+          Danh mục <sup className="text-pink-200">*</sup>
         </label>
         <select
           {...register("courseCategory", { required: true })}
@@ -224,7 +224,7 @@ export default function CourseInformationForm() {
           className="form-style w-full cursor-pointer"
         >
           <option value="" disabled>
-            Choose a Category
+            Chọn 1 danh mục khóa học
           </option>
           {!loading &&
             courseCategories?.map((category, indx) => (
@@ -235,7 +235,7 @@ export default function CourseInformationForm() {
         </select>
         {errors.courseCategory && (
           <span className="ml-2 text-xs tracking-wide text-pink-200">
-            Course Category is required
+            Danh mục là bắt buộc
           </span>
         )}
       </div>
@@ -263,7 +263,7 @@ export default function CourseInformationForm() {
       {/* Benefits of the course */}
       <div className="flex flex-col space-y-2">
         <label className="text-sm text-richblack-5" htmlFor="courseBenefits">
-          Benefits of the course <sup className="text-pink-200">*</sup>
+          Lợi ích của khóa học <sup className="text-pink-200">*</sup>
         </label>
         <textarea
           id="courseBenefits"
@@ -273,7 +273,7 @@ export default function CourseInformationForm() {
         />
         {errors.courseBenefits && (
           <span className="ml-2 text-xs tracking-wide text-pink-200">
-            Benefits of the course is required
+            Lợi ích của khóa học là bắt buộc
           </span>
         )}
       </div>
@@ -296,7 +296,7 @@ export default function CourseInformationForm() {
             className={`flex cursor-pointer items-center gap-x-2 rounded-md py-[8px] px-[20px] font-semibold
               text-richblack-900 bg-richblack-300 hover:bg-richblack-900 hover:text-richblack-300 duration-300`}
           >
-            Continue Wihout Saving
+            Tiếp tục mà không lưu
           </button>
         )}
         <IconBtn

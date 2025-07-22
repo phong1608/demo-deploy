@@ -1,6 +1,6 @@
 export const FooterLink2 = [
   {
-    title: "Subjects",
+    title: "Chủ đề",
     links: [
       { title: "Al", link: "/al" },
       { title: "Cloud Computing", link: "/cloud-computing" },
@@ -22,7 +22,7 @@ export const FooterLink2 = [
     ],
   },
   {
-    title: "Languages",
+    title: "Ngôn ngữ lập trình",
     links: [
       { title: "Bash", link: "/bash" },
       { title: "C++", link: "/c++" },
@@ -41,7 +41,7 @@ export const FooterLink2 = [
     ],
   },
   {
-    title: "Career building",
+    title: "Định hướng nghề nghiệp",
     links: [
         {title: "Career paths", link: "/career-paths"},
         {title: "Career services", link: "/career-services"},

@@ -92,7 +92,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
 
           <div className={``}>
             <p className={`my-2 text-xl font-semibold `}>
-              Course Requirements :
+              Yêu cầu khóa học:
             </p>
             <div className="flex flex-col gap-3 text-sm text-caribbeangreen-100">
               {course?.instructions?.map((item, i) => {
@@ -111,7 +111,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
               className="mx-auto flex items-center gap-2 py-6 text-yellow-100 "
               onClick={handleShare}
             >
-              <FaShareSquare size={15} /> Share
+              <FaShareSquare size={15} /> Chia sẻ
             </button>
           </div>
         </div>

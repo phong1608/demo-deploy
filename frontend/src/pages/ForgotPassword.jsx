@@ -30,14 +30,14 @@ function ForgotPassword() {
           <div className="my-4 text-[1.125rem] leading-[1.625rem] text-richblack-100">
             {!emailSent
               ? "Have no fear. We'll email you instructions to reset your password. If you dont have access to your email we can try account recovery"
-              : <p>We have sent the reset email to <span className="text-yellow-200">{email}</span></p>}
+              : <p>Quên mật khẩu <span className="text-yellow-200">{email}</span></p>}
           </div>
 
           <form onSubmit={handleOnSubmit}>
             {!emailSent && (
               <label className="w-full">
                 <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-                  Email Address <sup className="text-pink-200">*</sup>
+                  Email  <sup className="text-pink-200">*</sup>
                 </p>
                 <input
                   required
@@ -65,7 +65,7 @@ function ForgotPassword() {
           <div className="mt-6 flex items-center justify-between">
             <Link to="/login">
               <p className="flex items-center gap-x-2 text-richblack-5">
-                <BiArrowBack /> Back To Login
+                <BiArrowBack /> Trở về đăng nhập
               </p>
             </Link>
           </div>

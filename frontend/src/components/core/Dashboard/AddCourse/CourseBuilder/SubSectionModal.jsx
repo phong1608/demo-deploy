@@ -150,7 +150,7 @@ export default function SubSectionModal({ modalData, setModalData, add = false, 
           {/* Lecture Title */}
           <div className="flex flex-col space-y-2">
             <label className="text-sm text-richblack-5" htmlFor="lectureTitle">
-              Lecture Title {!view && <sup className="text-pink-200">*</sup>}
+              Tên bài học {!view && <sup className="text-pink-200">*</sup>}
             </label>
             <input
               disabled={view || loading}
@@ -161,7 +161,7 @@ export default function SubSectionModal({ modalData, setModalData, add = false, 
             />
             {errors.lectureTitle && (
               <span className="ml-2 text-xs tracking-wide text-pink-200">
-                Lecture title is required
+                Tên bài học là bắt buộc
               </span>
             )}
           </div>
@@ -169,7 +169,7 @@ export default function SubSectionModal({ modalData, setModalData, add = false, 
           {/* Lecture Description */}
           <div className="flex flex-col space-y-2">
             <label className="text-sm text-richblack-5" htmlFor="lectureDesc">
-              Lecture Description{" "}
+              Mô tả bài học{" "}
               {!view && <sup className="text-pink-200">*</sup>}
             </label>
             <textarea
@@ -181,7 +181,7 @@ export default function SubSectionModal({ modalData, setModalData, add = false, 
             />
             {errors.lectureDesc && (
               <span className="ml-2 text-xs tracking-wide text-pink-200">
-                Lecture Description is required
+                Mô tả bài học là bắt buộc
               </span>
             )}
           </div>
