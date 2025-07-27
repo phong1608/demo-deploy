@@ -96,7 +96,7 @@ function SignupForm() {
           {/* First Name */}
           <label>
             <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-              First Name <sup className="text-pink-200">*</sup>
+              Họ <sup className="text-pink-200">*</sup>
             </p>
             <input
               required
@@ -115,7 +115,7 @@ function SignupForm() {
           {/* Last Name */}
           <label>
             <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-              Last Name <sup className="text-pink-200">*</sup>
+              Tên <sup className="text-pink-200">*</sup>
             </p>
             <input
               required
@@ -135,7 +135,7 @@ function SignupForm() {
         {/* Email Address */}
         <label className="w-full">
           <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-            Email Address <sup className="text-pink-200">*</sup>
+            Email <sup className="text-pink-200">*</sup>
           </p>
           <input
             required
@@ -156,7 +156,7 @@ function SignupForm() {
           {/* Create Password */}
           <label className="relative">
             <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-              Create Password <sup className="text-pink-200">*</sup>
+              Mật khẩu <sup className="text-pink-200">*</sup>
             </p>
             <input
               required
@@ -185,7 +185,7 @@ function SignupForm() {
           {/* Confirm Password  */}
           <label className="relative">
             <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-              Confirm Password <sup className="text-pink-200">*</sup>
+              Xác nhận mật khẩu <sup className="text-pink-200">*</sup>
             </p>
             <input
               required
