@@ -1,4 +1,4 @@
-const API_URL = window.__ENV__?.VITE_API_URL || '';
+const BASE_URL = window.__ENV__?.VITE_API_URL || '';
 
 // AUTH ENDPOINTS
 export const endpoints = {
