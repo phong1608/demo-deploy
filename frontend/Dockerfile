@@ -1,20 +1,29 @@
-# Base image nhẹ với Node.js
-FROM node:18-alpine
+# 1. Build stage
+FROM node:18-alpine AS build
 
-# Cài vite CLI global (dùng để preview)
-RUN npm install -g vite
-
-# Tạo thư mục làm việc
+# Set working directory
 WORKDIR /app
 
-# Copy thư mục dist đã build sẵn
-COPY dist ./dist
+# Install dependencies
+COPY package*.json ./
+RUN npm install --frozen-lockfile
 
-# Optional: copy package.json để version tracking
-COPY package.json .
+# Copy source code and build
+COPY . .
+RUN npm run build
 
-# Mở cổng mặc định của Vite preview: 4173
-EXPOSE 4173
+# 2. Production stage
+FROM nginx:stable-alpine
 
-# Chạy server production từ dist
-CMD ["vite", "preview", "--host"]
+# Copy built files to Nginx HTML folder
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Copy custom Nginx config (optional)
+# Create a custom nginx.conf if you want SPA routing
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Expose port
+EXPOSE 80
+
+# Run Nginx
+CMD ["nginx", "-g", "daemon off;"]
